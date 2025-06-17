@@ -1,2 +1,4 @@
-public class EmpleadoPorHoras {
+public class EmpleadoPorHoras extends Empleado {
+    
+
 }
