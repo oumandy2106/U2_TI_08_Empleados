@@ -5,10 +5,11 @@ public class EmpleadoPorHoras extends Empleado {
         super(id, nombre, salarioBase);
         this.horasTrabajadas = horasTrabajadas;
     }
-    
+
     @Override
     public double calcularSalario() {
         getSalarioBase();
         return getSalarioBase()*horasTrabajadas;
     }
+
 }
