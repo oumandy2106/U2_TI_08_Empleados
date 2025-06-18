@@ -11,4 +11,7 @@ public class EmpleadoTiempoCompleto extends Empleado {
         return getSalarioBase();
     }
 
+    public String getBeneficios() {
+        return beneficios;
+    }
 }
